@@ -8,7 +8,7 @@ private:
     float wingSpan;
 public:
    bird();
-   bird(float wingSpan);
+   bird(float ws);
    ~bird();
    float getWingSpan();
    void setWingSpan(float w);
