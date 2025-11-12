@@ -22,13 +22,31 @@ public:
 
    animal.h::~animal(){}
 
-   string getName();
-   int getAge();
-   bool getIsHungry();
-   void setName(string n) ;
-   void setAge(int a) ;
-   void setIsHungry(bool h);
-   void display();
+   string getName(){
+      return name;
+   }
+
+   int getAge(){
+      return  age;
+   }
+
+   bool getIsHungry(){
+      return isHungry;
+   }
+
+   void setName(string n){
+      name = n;
+   }
+   void setAge(int a) {
+      age = a;
+   }
+   void setIsHungry(bool h){
+      isHungry = h;
+   }
+   void display(){
+      cout
+   }
+
    void feed();
    );
    
