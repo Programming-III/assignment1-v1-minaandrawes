@@ -12,7 +12,7 @@ private:
 
 public:
    animal();
-   animal(string n, int a, bool isHungry);
+   animal(string n, int a, bool ih);
    ~animal();
    string getName();
    int getAge();
