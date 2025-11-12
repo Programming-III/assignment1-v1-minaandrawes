@@ -14,12 +14,14 @@ public:
     age = 0;
     isHungry == false;
 }
-   animal.h::animal(string n, int a, bool isHungry){
+   animal.h::animal(string n, int a, bool ih){
     name = n;
     age = a;
-    isHungry == false;
+    isHungry = ih;
    }
-   ~animal();
+
+   animal.h::~animal(){}
+
    string getName();
    int getAge();
    bool getIsHungry();
